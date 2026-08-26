@@ -1,0 +1,57 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: smartroads
+    ports:
+      - '5432:5432'
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  backend:
+    build: ../backend
+    command: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+    volumes:
+      - ../backend:/app
+    ports:
+      - '8000:8000'
+    env_file:
+      - ../.env
+    environment:
+      - AI_SERVICE_URL=http://ai_service:8010/predict
+      - SATELLITE_SERVICE_URL=http://satellite_service:8020/compare
+    depends_on:
+      - db
+
+  ai_service:
+    build: ../services/ai
+    command: uvicorn app:app --host 0.0.0.0 --port 8010 --reload
+    volumes:
+      - ../services/ai:/app
+    ports:
+      - '8010:8010'
+
+  satellite_service:
+    build: ../services/satellite
+    command: uvicorn app:app --host 0.0.0.0 --port 8020 --reload
+    volumes:
+      - ../services/satellite:/app
+    ports:
+      - '8020:8020'
+
+  frontend:
+    build: ../frontend
+    ports:
+      - '3000:3000'
+    volumes:
+      - ../frontend:/usr/src/app
+    environment:
+      - NEXT_PUBLIC_MAPBOX_TOKEN
+    depends_on:
+      - backend
+
+volumes:
+  db_data:

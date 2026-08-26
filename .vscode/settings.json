@@ -1,0 +1,15 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"c:\\\\Users\\\\anilk\\\\Desktop\\\\AI Road\\\\backend\" ; python test_api\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd \"c:\\\\Users\\\\anilk\\\\Desktop\\\\AI Road\" ; python test_api_run\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "furgleai.severityThreshold": "low",
+    "furgleai.commitBlockingSeverity": "critical",
+    "furgleai.baseBranch": "main"
+}

@@ -1,0 +1,33 @@
+﻿
+> smartroads-frontend@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.5
+  - Environments: .env.local
+
+   Linting and checking validity of types ...
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ Γ£ô Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                             Size     First Load JS
+Γöî Γùï / (780 ms)                            2.44 kB        80.7 kB
+Γö£   /_app                                 0 B            78.2 kB
+Γö£ Γùï /404                                  180 B          78.4 kB
+Γö£ Γùï /login (800 ms)                       721 B            79 kB
+Γö£ Γùï /register (765 ms)                    679 B          78.9 kB
+Γöö Γùï /report                               920 B          79.2 kB
++ First Load JS shared by all             81.3 kB
+  Γö£ chunks/framework-ecc4130bc7a58a64.js  45.2 kB
+  Γö£ chunks/main-ac52e5f1ea1d2a16.js       32 kB
+  Γöö other shared chunks (total)           4.1 kB
+
+Γùï  (Static)  prerendered as static content
+
