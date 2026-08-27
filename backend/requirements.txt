@@ -9,6 +9,7 @@ python-multipart
 python-dotenv
 firebase-admin
 pydantic
+email-validator
 httpx
 aiofiles
 bcrypt

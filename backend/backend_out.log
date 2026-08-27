@@ -1,0 +1,62 @@
+INFO:     127.0.0.1:56565 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56656 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56656 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56659 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56656 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56807 - "OPTIONS /api/auth/firebase HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56807 - "OPTIONS /api/auth/firebase HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "OPTIONS /api/auth/firebase HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56807 - "OPTIONS /api/auth/firebase HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56807 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56811 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56814 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56810 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56807 - "OPTIONS /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56811 - "OPTIONS /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56810 - "OPTIONS /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56814 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56807 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56811 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56807 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56811 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56810 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56815 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56814 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56810 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56807 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56809 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56807 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56810 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56810 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56810 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56810 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56810 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56814 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56815 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56814 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56815 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56810 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56814 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56815 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56815 - "POST /api/auth/firebase HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:56815 - "POST /api/auth/register HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:56815 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56902 - "GET /api/monitoring/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56902 - "GET /api/monitoring/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "OPTIONS /api/reports HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56904 - "POST /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56950 - "POST /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56963 - "POST /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:56964 - "POST /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57015 - "POST /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57016 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57061 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57064 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57064 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57064 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:57093 - "GET /api/reports HTTP/1.1" 500 Internal Server Error
